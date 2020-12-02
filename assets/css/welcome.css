@@ -1,0 +1,215 @@
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 300px;
+  top: 10px;
+  color: #00B39C
+}
+
+#nav-bar li a {
+  display: block;
+  color: #F57C49;
+  padding: 16px 22px;
+  text-decoration: none;
+  color: #F57C49;
+  float: left;
+  background-color: none;
+  font-family: 'Inter', sans-serif;
+}
+#nav-bar li a:hover{
+  color: white;
+}
+body {
+    margin: 0;
+    background: #18161F;
+  }
+
+.home {
+  background: #18161F;
+  padding-top: 50px;
+  text-align: left;
+  height: 600px;
+}
+h1 {
+  color: #F57C49;
+  font-family: 'Inter', sans-serif;
+  font-size: 90px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 19px;
+  padding-left: 150px;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: opacity-ting;
+  animation-timing-function: ease-in;
+}
+h2{
+  color: #F57C49;
+  font-family: 'Inter', sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 19px;
+  padding-left: 150px;
+  transform: translateY(-700px);
+  width: 300px;
+}
+p{
+  color: #00B39C;
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  width: 630px;
+  line-height: 30px;
+  padding-left: 150px;
+  padding-top: 10PX;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: opacity-ting;
+  animation-timing-function: ease-in;
+}
+
+.menu-button {
+  font-family: 'Inter', sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #F57C49;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  width: 70px;
+  border: 2px solid #3498db;
+  border-color: #F57C49;
+  text-align: center;
+  text-decoration: none;
+  transform: translateX(50px);
+}
+.resume-button hover{
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+img {
+  float: right;
+  transform: translateY(-450px);
+  width: 2000px;
+  height:680px;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: opacity-ting;
+  animation-timing-function: ease-in;
+  z-index: 9998;
+}
+
+.diagonal-box {
+position: relative;
+z-index: auto;
+transform: skewY(2deg);
+height: 80px;
+width: 100%;
+background: rgb(255,247,8);
+background: linear-gradient(90deg, rgba(255,247,8,1) 0%, rgba(247,123,66,1) 12%, rgba(239,82,66,1) 29%, rgba(181,89,166,1) 47%, rgba(204,155,223,1) 62%, rgba(0,156,214,1) 77%, rgba(1,179,160,1) 89%);
+}
+.content {
+	max-width: 50em;
+  margin: 0 auto;
+}
+.bounce-4 {
+        animation-name: bounce-4;
+        animation-timing-function: ease;
+    }
+@keyframes bounce-4 {
+        0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,1) translateY(0); }
+        30%  { transform: scale(.1,1.1) translateY(-100px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
+    }
+.about img{
+  height: 450px;
+  width: 400px;
+  padding-right: 80px;
+  padding-top: 90px;
+}
+.about p{
+  color: #00B39C;
+  padding: 0;
+  padding-left: 100px;
+  transform: translateY(-700px);
+  transform: translateY(300);
+}
+.otherbox {
+position: relative;
+z-index: inherit;
+height: 90px;
+width: 100%;
+background: rgb(255,247,8);
+background: linear-gradient(90deg, rgba(255,247,8,1) 0%, rgba(247,123,66,1) 12%, rgba(239,82,66,1) 29%, rgba(181,89,166,1) 47%, rgba(204,155,223,1) 62%, rgba(0,156,214,1) 77%, rgba(1,179,160,1) 89%);
+transform: skewY(-3deg);
+}
+
+.otherbox img{
+  height: 50px;
+  width: 50px;
+}
+.opacity-ting{
+  animation-name: opacity-ting;
+  animation-timing-function:ease-in;
+}
+@keyframes opacity-ting {
+            0%   {opacity: 0;}
+            25%  {opacity: 25%;}
+            50%  {opacity: 50%;}
+            75%  {opacity: 75%;}
+            100% {opacity: 100%;}
+        }
+.about p{
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.paragraphs{
+  padding-top: 500px;
+  transform: translateY(290px);
+}
+
+.h2 h2{
+  padding-top: 100px;
+}
+
+.about{
+  height: 750px;
+}
+
+iframe{
+  transform: translate(50px, 100px);
+  padding: 10px;
+}
+
+.content{
+  color: #18161F;
+  font-family: 'Inter', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 19px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.spotify{
+  transform: translate(500px, -200px;);
+}
+
+.instagram-media{
+  transform: translate(800px, -300px);
+}
+
+.boba{
+  transform: translate(800px, -100px);
+}
