@@ -3,7 +3,8 @@
   margin: 0;
   padding-left: 300px;
   top: 10px;
-  color: #00B39C
+  color: black;
+
 }
 
 #nav-bar li a {
@@ -13,11 +14,14 @@
   text-decoration: none;
   color: #F57C49;
   float: left;
-  background-color: none;
   font-family: 'Inter', sans-serif;
 }
 #nav-bar li a:hover{
   color: white;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-name: innout;
+  animation-timing-function: ease-in;
 }
 body {
     margin: 0;
@@ -212,4 +216,18 @@ iframe{
 
 .boba{
   transform: translate(800px, -100px);
+}
+
+@keyframes innout {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
 }
