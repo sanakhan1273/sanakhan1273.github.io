@@ -19,6 +19,10 @@
 }
 #nav-bar li a:hover{
   color: white;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-name: innout;
+  animation-timing-function: ease-in;
 }
 h1 {
   padding-top: 120px;
@@ -122,4 +126,18 @@ body {
             50%  {opacity: 50%;}
             75%  {opacity: 75%;}
             100% {opacity: 100%;}
+        }
+
+@keyframes innout {
+        	0% {
+        		transform: scale(0.95);
+        	}
+
+        	70% {
+        		transform: scale(1);
+        	}
+
+        	100% {
+        		transform: scale(0.95);
+        	}
         }

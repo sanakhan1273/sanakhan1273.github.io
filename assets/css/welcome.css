@@ -218,7 +218,6 @@ iframe{
 .boba{
   transform: translate(800px, -100px);
 }
-
 @keyframes innout {
 	0% {
 		transform: scale(0.95);
