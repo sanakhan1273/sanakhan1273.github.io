@@ -231,3 +231,15 @@ iframe{
 		transform: scale(0.95);
 	}
 }
+.gallery{
+  display: flex;
+  padding-left: 35px;
+}
+
+.on2{
+ transform: skewY(-3deg);
+}
+
+.onw{
+ transform: skewY(3deg);
+}
